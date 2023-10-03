@@ -9,6 +9,20 @@ Por ejemplo, para X = "Bond, James Bond", resultan:
 X’ = "BoJ ,dnameB sodn"  y  X” = "BnodJo s, dBneam
 
 ## Sistema de Encriptación X’
-Este sistema se basa en dar
+Este sistema se basa en darle la vuelta (como si lo estuvieras mirando por un espejo) a aquellas cadena de caracteres que no sean vocales (incluyendo espacios).
+
+Enctiptación:
+
+APPLE
+
+{A} {PPL} {E}
+
+damos la vuelta como si lo estuvieramos viendo en un espejo, pero separadolos aquellas lineas o caracteres que no sean vocales
+
+RESULTADO:
+
+{A} {LPP} {E}
+
+ALPPE
 
 ##
