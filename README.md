@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+# problemanum197
+El agente 0069 lleva años utilizando un método de codificación de mensajes secretos. Si X es el
+mensaje original, éste se codifica en dos etapas:
+
+## PROBLEMA PLANTEADO
+
+1. X se transforma en X’ reemplazando cada sucesión de caracteres consecutivos que no sean vocales por su imagen especular.
+
+2. X’ se transforma en la sucesi´on de caracteres X” obtenida al ir tomando sucesivamente: el primer carácter de X’, luego el ´ultimo, luego el segundo, luego el pen´ultimo, etc.
+
+Por ejemplo, para X = "Bond, James Bond", resultan:
+X’ = "BoJ ,dnameB sodn"  y  X” = "BnodJo s, dBneam
+
+##
+
+=======
 # AGENTE 0069
 El agente 0069 lleva años utilizando un método de codificación de mensajes secretos. Si X es el
 mensaje original, éste se codifica en dos etapas:
@@ -42,3 +59,5 @@ A E L P P
 1 2 3 4 5
 
 Una vez sabemos esto, procedemos a traducir ambos algoritmos a codigo, despues juntamos para que funcionen de manera conjunta siendo X’ la primera encriptación a realizar, y X’’ el ultimo paso.
+
+>>>>>>> a1a07e3803c8878b8a23cd3ca0b2671a03a98ae4
