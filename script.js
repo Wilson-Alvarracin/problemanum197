@@ -1,7 +1,9 @@
 var texto1 = document.getElementById("crypt");
 var texto2 = document.getElementById("decrypt");
-
+var buttonCrypt = document.getElementById("buttonCrypt");
+var buttonDecrypt = document.getElementById("buttonDecrypt");
 function encriptar(stringInicial){
+    // De x ->x'
     vocales=["a","e","i","o","u"];
     string="";
     subCadena="";
@@ -16,6 +18,7 @@ function encriptar(stringInicial){
     if(subCadena.length !=0){
         string +=subCadena.split("").reverse().join("");
     }
+    // De x'->x''
     var y = string.length -1;
     var res='';
     for (let i = 0; i < string.length/2; i++) {
@@ -31,6 +34,7 @@ function encriptar(stringInicial){
     document.getElementById("cryptRes").innerText =res;
 }
 function desencriptar(stringInicial){
+    // De x''->x'
     if(stringInicial.length %2 == 0){
         var y = stringInicial.length -1;
     }else{
@@ -43,6 +47,7 @@ function desencriptar(stringInicial){
     for (let i = y; i >= 0; i-=2) {
         string+=stringInicial[i];
     }
+    // De x'->x
     vocales=["a","e","i","o","u"];
     res="";
     subCadena="";
@@ -59,7 +64,7 @@ function desencriptar(stringInicial){
     }
     document.getElementById("decryptRes").innerText = res;
 }
-texto1.addEventListener("blur",() => {encriptar(texto1.value)});
-texto2.addEventListener("blur",() => {desencriptar(texto2.value)});
+buttonCrypt.addEventListener("click",() => {encriptar(texto1.value)});
+buttonDecrypt.addEventListener("click",() => {desencriptar(texto2.value)});
 
 
