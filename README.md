@@ -14,7 +14,7 @@ X’ = "BoJ ,dnameB sodn"  y  X” = "BnodJo s, dBneam
 
 ##
 
-=======
+
 # AGENTE 0069
 El agente 0069 lleva años utilizando un método de codificación de mensajes secretos. Si X es el
 mensaje original, éste se codifica en dos etapas:
