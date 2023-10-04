@@ -25,4 +25,18 @@ RESULTADO:
 
 ALPPE
 
-##
+## Sistema de Encriptación X’’
+Por ultimo lugar la encriptación realizada por X’’ consiste en realizar una cadena de caracteres pero comenzando con el primer caracter de la frase, después el ultimo, y luego el sgundo, seguido del penultimo... y asi sucesivamente hasta terminar la frase
+
+Encriptación:
+
+A  L  P  P  E
+1  3  5  4  2
+
+
+RESULTADO
+
+A E L P P
+1 2 3 4 5
+
+Una vez sabemos esto, procedemos a traducir ambos algoritmos a codigo, despues juntamos para que funcionen de manera conjunta siendo X’ la primera encriptación a realizar, y X’’ el ultimo paso.
