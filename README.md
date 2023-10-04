@@ -59,5 +59,3 @@ A E L P P
 1 2 3 4 5
 
 Una vez sabemos esto, procedemos a traducir ambos algoritmos a codigo, despues juntamos para que funcionen de manera conjunta siendo X’ la primera encriptación a realizar, y X’’ el ultimo paso.
-
->>>>>>> a1a07e3803c8878b8a23cd3ca0b2671a03a98ae4
