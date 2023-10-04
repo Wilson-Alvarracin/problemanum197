@@ -3,15 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mensaje interceptado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pixelify+Sans&family=Young+Serif&display=swap"&display=swap" rel="stylesheet">
 </head>
 <body>
-    <label for="crypt">Encriptar:</label>
-    <input type="text" name="crypt" id="crypt" value="">
-    <pre id="cryptRes"></pre>
-    <label for="decrypt">Desencriptar:</label>
-    <input type="text" name="decrypt" id="decrypt">
-    <pre id="decryptRes"></pre>
+    <div class="enunciado">
+        <p class="enunciadotext">El agente 0069 lleva años utilizando un método de codificación de mensajes secretos.</p>
+        <p class="enunciadotext">Para encriptar o desencriptar inserta el texto en su correspondiente campo y cuando le des click al botón se procesará el texto.</p>
+    </div>
+    <div class="row">
+        <div class="column-2">
+            <div id="device1" class="device">
+                <input type="text" name="crypt" id="crypt" class="texto" maxlength="46" placeholder="Inserta el texto para encriptarlo...">
+                <pre id="cryptRes" class="res"></pre>
+                <button id="buttonCrypt" class="button1">Encriptar</button>
+            </div>
+        </div>
+        <div class="column-2">
+            <div id="device2" class="device">
+                <input type="text" name="decrypt" id="decrypt" class="texto" placeholder="Inserta el texto para desencriptarlo...">
+                <pre id="decryptRes" class="res"></pre>
+                <button id="buttonDecrypt" class="button2">Desencriptar</button>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
